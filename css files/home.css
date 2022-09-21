@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@100;200;400;500;600;700;800;900&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mochiy Pop P One';
+}
+
+nav{
+    display: flex;
+    background-color: #d4a111;
+}
+
+nav .logo{
+    margin: 20px;
+    margin-left: 10%;
+}
+
+nav .logo img{
+    width: 140px;
+}
+
+nav .menu{
+    display: flex;
+    float: right;
+    margin-left: 35%;
+    margin-top: 7px;
+}
+
+nav .menu a{
+    text-decoration: none;
+}
+
+nav .menu a li{
+    list-style: none;
+    margin: 20px;
+}
+
+
+nav .menu a li p{
+    color: #d31145;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+.jersey .red-bull .font img{
+    width: 400px;
+}
+
+.jersey .red-bull .section-1{
+    display: inline;
+}
+
+.jersey .red-bull .section-1 .p1{
+    display: inline;
+}
+
+
+
+.jersey .red-bull{
+    background: #d4a111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.jersey .red-bull .text{
+    margin-top: 15%;
+}
+
+.jersey .red-bull .text p{
+    width: 500px;
+}
+
+.one-line{
+    display: flex;
+}
+
+.bj{
+    color: #d31145;
+}
+
+.jersey .red-bull .btns{
+    display: flex;
+    margin-top: 10px;
+}
+
+.jersey .red-bull .btns button{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+    background: #d4a111;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.jersey .red-bull .btns button:hover{
+    background: #d31145;
+    border: 2px solid #d31145;
+    color: #d4a111;
+}
+
+
+
+
+
+.jersey .line-of-border{
+    height: 30px;
+    background: #d31145;
+}
+
+.jersey .line-of-border-2{
+    height: 30px;
+    background: #2a2d3e;
+}
+
+
+
+
+.jersey .reldos-night-x{
+    font-family: 'Poppins';
+    background-color: #3b4067;
+    height: 100vh;
+}
+
+.jersey .reldos-night-x .section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jersey .reldos-night-x .section-1 .img img{
+    width: 400px;
+}
+
+
+.jersey .red-bull .btns{
+    display: flex;
+    margin-top: 10px;
+}
+
+.jersey .reldos-night-x .btns button{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid white;
+    background: #3b4067;
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+}
+
+.jersey .reldos-night-x .btns button:hover{
+    background: #2a2d3e;
+    border: 2px solid #2a2d3e;
+    color: #3b4067;
+}
+
+.jersey .reldos-night-x .text {
+    color: white;
+    letter-spacing: 1px;
+    width: 500px;
+}
