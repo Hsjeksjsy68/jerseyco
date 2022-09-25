@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@100;200;400;500;600;700;800;900&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #d31145;
+    border-radius: 1000px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #ff789c;
+}
+
+::selection{
+    background: #d31145;
+    color: white;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mochiy Pop P One';
+}
+
+
+body{
+    background: white;
+}
+
+
+
+nav{
+    display: flex;
+    background-color: white;
+}
+
+nav .logo{
+    margin: 20px;
+    margin-left: 10%;
+}
+
+nav .logo img{
+    width: 140px;
+}
+
+nav .menu{
+    display: flex;
+    float: right;
+    margin-left: 35%;
+    margin-top: 7px;
+}
+
+nav .menu a{
+    text-decoration: none;
+}
+
+nav .menu a li{
+    list-style: none;
+    margin: 20px;
+}
+
+
+nav .menu a li p{
+    color: #d31145;
+    font-weight: 800;
+}
+
+
+
+
+
+.team{
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+.team .box img{
+    width: 100px;
+}
+
+.team .box .group-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .box .group-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.team .box .group-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .box .title{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #372631;
+}
+
+
+
+.about{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.about .text{
+    width: 900px;
+    color: #d31145;
+}
+
+
+.about .text .s2{
+    margin-top: 50px;
+}
+
+
+.partner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner .box h1{
+    text-align: center;
+    margin: 40px;
+    color: #d31145;
+}
+
+.partner .group-1{
+    display: flex;
+}
+
+.partner .group-1 img{
+    width: 100px;
+}
