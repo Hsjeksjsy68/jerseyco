@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@100;200;400;500;600;700;800;900&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d4a111;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #d31145;
+    border-radius: 10000px;
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+    background: #ec5880;
+    transition: .5s;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -51,6 +70,10 @@ nav .menu a li p{
 
 
 
+.jersey .red-bull ::selection{
+    background: #d31145;
+    color: #d4a111;
+}
 
 .jersey .red-bull .font img{
     width: 400px;
@@ -126,6 +149,12 @@ nav .menu a li p{
 
 
 
+
+
+.jersey .reldos-night-x ::selection{
+    background-color: #62ffdd;
+    color: #3b4067;
+}
 
 .jersey .reldos-night-x{
     font-family: 'Poppins';
